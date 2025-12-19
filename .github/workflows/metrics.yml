@@ -3,18 +3,30 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
+          # Configuración básica
+          user: jesuSando
+          template: classic
+          base: ""
+          # Configuración de plugins
           plugin_radar: yes
           plugin_radar_skills: commits, pull-requests, reviews, issues
           plugin_radar_title: Activity Overview
           plugin_radar_limit: 4
-
+          # Configuración de archivo de salida
+          filename: github-metrics.svg
+          # Tema
           theme: dark
