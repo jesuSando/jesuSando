@@ -1,0 +1,20 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          plugin_radar: yes
+          plugin_radar_skills: commits, pull-requests, reviews, issues
+          plugin_radar_title: Activity Overview
+          plugin_radar_limit: 4
+
+          theme: dark
