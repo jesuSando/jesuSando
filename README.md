@@ -11,7 +11,7 @@
 
 ### 🎨 Frontend
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,astro,angular,bootstrap,tailwind,sass&perline=4" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,astro,angular,bootstrap,tailwind,sass&perline=8" />
 </p>
 
 ---
@@ -39,7 +39,7 @@
 
 ### 🧰 Herramientas & Entorno
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,linux,arch,debian,mint,windows,vscode,postman,obsidian,bash,md&perline=6" />
+  <img src="https://skillicons.dev/icons?i=git,github,linux,arch,debian,mint,windows,vscode,postman,obsidian,bash,md&perline=12" />
 </p>
 
 ---
