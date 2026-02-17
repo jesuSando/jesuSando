@@ -2,49 +2,42 @@
 
 ## 🚀 Tech Stack
 
-### 🧠 Lenguajes
+<table align="center">
+<tr>
+<td valign="top" width="50%">
+
+### 🧠 Core
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,html,css&perline=5" />
+  <img src="https://skillicons.dev/icons?i=js,ts,py,nodejs,react,nextjs,express&perline=4" />
 </p>
 
----
+</td>
+<td valign="top" width="50%">
 
-### 🎨 Frontend
+### 🗄️ Data & Backend
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,astro,angular,bootstrap,tailwind,sass&perline=8" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sequelize,django&perline=4" />
 </p>
 
----
+</td>
+</tr>
 
-### ⚙️ Backend
+<tr>
+<td valign="top">
+
+### 🎨 Frontend UI
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,django,sequelize&perline=4" />
+  <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,sass,astro,angular&perline=4" />
 </p>
 
----
+</td>
+<td valign="top">
 
-### 🗄️ Bases de Datos
+### ⚙️ DevOps & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,firebase,sqlite&perline=5" />
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,postman,vercel,netlify&perline=4" />
 </p>
 
----
-
-### 🏗️ DevOps & Arquitectura
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,vercel,netlify&perline=3" />
-</p>
-
----
-
-### 🧰 Herramientas & Entorno
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,linux,arch,debian,mint,windows,vscode,postman,obsidian,bash,md&perline=12" />
-</p>
-
----
-
-### 🎮 Otros
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=godot,discord,ps,ai,ae,pr&perline=6" />
-</p>
+</td>
+</tr>
+</table>
